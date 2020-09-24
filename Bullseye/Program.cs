@@ -15,7 +15,6 @@ namespace Bullseye
             public int randomY = random.Next(100);
         }
        
-        Console.WriteLine(randomX);
 
 
         public void CreateDot() 
@@ -23,10 +22,11 @@ namespace Bullseye
 
 
         }
-        public void randomXY()
+       public void AddPoint(PaintEventArgs e)
         {
-            
-            
+         Point point1 = new Point(randomX, randomY);
+         Point point2 = Point.Add(point1, new Size(randomX,randomY));
+         e.Graphics.DrawLine(Pens.Red, point1, point2);
         }
 
     }
