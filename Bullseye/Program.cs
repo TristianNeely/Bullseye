@@ -7,6 +7,7 @@ namespace Bullseye
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("bruh");
         }
 
         public void CreateDot() 
