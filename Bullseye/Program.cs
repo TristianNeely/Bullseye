@@ -15,7 +15,7 @@ namespace Bullseye
             public int randomY = random.Next(100);
         }
        
-       public void AddPoint(PaintEventArgs e)
+       public void CrazyDot(PaintEventArgs e)
         {
          Point point1 = new Point(randomX, randomY);
          Point point2 = Point.Add(point1, new Size(randomX,randomY));
