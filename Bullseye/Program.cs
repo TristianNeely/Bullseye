@@ -8,5 +8,12 @@ namespace Bullseye
         {
             Console.WriteLine("Hello World!");
         }
+
+        public void CreateDot() 
+        {
+
+
+        }
+
     }
 }
